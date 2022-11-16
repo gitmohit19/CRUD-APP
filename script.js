@@ -46,7 +46,7 @@ function editChapter(currElement){
         let currChapterName = currElement.previousElementSibling.textContent
         let currInput = document.createElement('input')
         currInput.type = "text"
-       currInput.placeholder = "Chapter Name"
+       currInput.placeholder = "Add work list here"
         currInput.className = "form-control"
         currInput.value = currChapterName
     currElement.parentElement.replaceChild(currInput,currElement.previousElementSibling)
